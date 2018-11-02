@@ -13,6 +13,8 @@ import { genSchema } from "./utils/genSchema";
 import { redisSessionPrefix } from "./constants";
 import { createTestConn } from "./testUtils/createTestConn";
 
+// import "./temp";
+
 const SESSION_SECRET = "ajslkjalksjdfkl";
 const RedisStore = connectRedis(session as any);
 
