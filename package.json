@@ -1,5 +1,9 @@
 {
   "private": true,
+  "scripts": {
+    "build:server": "lerna run build --scope={@abb/common,@abb/controller,@abb/server}",
+    "build:web": "lerna run build --scope={@abb/common,@abb/controller,@abb/web}"
+  },
   "workspaces": {
     "packages": [
       "packages/*"
@@ -8,7 +12,11 @@
       "**/rimraf",
       "**/rimraf/**",
       "**/copyfiles",
-      "**/copyfiles/**"      
+      "**/copyfiles/**"
     ]
+  },
+  "name": "abb",
+  "devDependencies": {
+    "lerna": "^3.4.3"
   }
 }

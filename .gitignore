@@ -9,3 +9,8 @@ dump.rdb
 .env*
 
 ormconfig.json
+.netlify
+
+
+
+!/packages/web/.env*
