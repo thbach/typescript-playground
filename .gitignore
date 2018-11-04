@@ -14,3 +14,4 @@ ormconfig.json
 
 
 !/packages/web/.env*
+!/packages/web/build
